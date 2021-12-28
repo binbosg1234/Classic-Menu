@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+nav>ul{
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    padding: 20px 20px;
+    color: whitesmoke;
+    display: block;
+}
+img{
+   width: 70px; 
+   border-radius: 70%;
+}
+nav>ul{
+    display: flex;
+}
+.menu{
+    margin-left: 40px;
+}
+.menu2{
+    margin-right: 60px;
+}
+a:hover{
+    background-color: rgb(168, 164, 164);
+    color: black;
+}
+li>.kh{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.dropdown:hover .Drop1{
+    display: block;
+}
+.Drop1{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    z-index: 1;
+}
+.Drop1>a:hover{
+    color: black;
+    background-color: burlywood;
+}
+.Drop1>a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 12px;
+    color: whitesmoke;
+}
+
+.dropdown1:hover .Drop2{
+    display: block;
+}
+.Drop2{
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 100px;
+    z-index: 1;
+}
+.Drop2>a:hover{
+    color: black;
+    background-color: burlywood;
+}
+.Drop2>a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 12px;
+    color: whitesmoke;
+}
